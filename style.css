@@ -7,13 +7,12 @@
 .imagemtopo{
    
     width:11vw;
-    height: 11vh;
+    height: 10vh;
 }
 
 nav{
-    
     width: 100%;/*largura de 100% , assim tomando conta de toda largura da tela*/
-    height: vh;/*altura de vh*/
+    height: 17vh;/*altura de vh*/
     display:flex;/* transforma a nav um contêiner flexível. Este contêiner permite que seus filhos sejam distribuídos de forma flexível.*/
     justify-content: space-evenly;/*faz com que os elementos que se encontram dentro da nav fiquem no centro da caixa e com espaçamento igual entre os elementos*/
     align-items:center ; /*intens são alinhado no centro*/
