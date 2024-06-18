@@ -85,9 +85,10 @@ button  a {/*estilizando o que esta escrito dentro do botão*/
 
 .parte2{ /*section parte 2 , parte das imagens dos cachorros*/
     display: flex;/*tranforma a caixa pai parte2 em um contêiner flexível. Este contêiner permite que seus filhos sejam distribuídos de forma flexível.*/
-    height: 45vh;/*define a altura da section*/
+    height: 40vh;/*define a altura da section*/
     justify-content: center;/*intems ficam alinhados ao centro do eixo x, horizontal*/
-    margin-top:20px;/* espaçamento acima da parte 2*/
+    margin-top:50px;/* espaçamento acima da parte 2*/
+ 
 }
 
 .parte2 img{ /* nome da caixa pai, especificando q quer mexer na imagem da div parte 2*/
