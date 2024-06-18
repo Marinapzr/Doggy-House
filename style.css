@@ -1,0 +1,298 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.imagemtopo{
+   
+    width:11vw;
+    height: 11vh;
+}
+
+nav{
+    
+    width: 100%;/*largura de 100% , assim tomando conta de toda largura da tela*/
+    height: vh;/*altura de vh*/
+    display:flex;/* transforma a nav um contêiner flexível. Este contêiner permite que seus filhos sejam distribuídos de forma flexível.*/
+    justify-content: space-evenly;/*faz com que os elementos que se encontram dentro da nav fiquem no centro da caixa e com espaçamento igual entre os elementos*/
+    align-items:center ; /*intens são alinhado no centro*/
+    list-style-type: none; /* tira as bolinhas da lista*/
+}
+
+nav ul{
+    width: 40vw;
+    display: flex;/* transforma a ul um contêiner flexível. Este contêiner permite que seus filhos sejam distribuídos de forma flexível.*/
+    justify-content: space-evenly;   /*faz com que os elementos que se encontram dentro da nav fiquem no centro da caixa e com espaçamento igual entre os elementos*/
+    list-style-type: none; /*tira as bolinhas da lista*/
+}
+
+a {
+    text-decoration: none;/*remove o sublinhado dos links.*/
+    color:#373737;/*cor do texto*/
+}
+
+.banner1{
+    border:solid white;
+    width: 100%;/*largura*/
+    height: 80vh;/*altura*/
+    background-image: url(imagens/Banner1.png);/*coloca a imagem como fundo */
+    background-repeat: no-repeat;/*faz com q a imagem nao se repita*/
+    background-size:100% 100% ;/*deixa a imagem de fundo 100%, */
+}
+
+.parte1{
+    
+    width: 21%;
+    height: 50%;
+    margin: 5%;
+    text-align: left;/*a posição do texto referente o canto direito da caixa*/
+    color:#6D4545; /*cor da letra*/
+}
+
+.parte1 h1{
+    font-size: 39px;/*tamanho da letra*/
+}
+
+.parte1 h2{
+    font-weight: normal;/*tira o negrito da letra*/
+    margin-top: 3%;/*espaçamento acima da h2*/
+}
+
+.parte1 h5{
+    font-weight: normal;/*fonte fica normal , se a letra estiver grossa, fica fina*/
+    margin-top: 3%;/*espaçamento acima do h5*/
+}
+
+.parte1 button{/*estilizando o botão*/
+    margin-top: 5%;/*espaçamento acima */
+    margin-left: 5px;/*espaçamento a esquerda do botão*/
+    width: 14vw;/*largura do botão*/
+    height: 8vh;/*altura do botão*/
+    background-color: #FEAF02;/*cor do botão*/
+    font-size: 18px; /*tamanho da letra*/ 
+    border:none;
+}
+
+button  a {/*estilizando o que esta escrito dentro do botão*/
+    color:aliceblue;/* cor da letra do botão*/
+}
+
+
+.parte2{ /*section parte 2 , parte das imagens dos cachorros*/
+    display: flex;/*tranforma a caixa pai parte2 em um contêiner flexível. Este contêiner permite que seus filhos sejam distribuídos de forma flexível.*/
+    height: 45vh;/*define a altura da section*/
+    justify-content: center;/*intems ficam alinhados ao centro do eixo x, horizontal*/
+    margin-top:20px;/* espaçamento acima da parte 2*/
+}
+
+.parte2 img{ /* nome da caixa pai, especificando q quer mexer na imagem da div parte 2*/
+   width: 80%; /*tamanho da largura da imagem*/
+}
+
+.parte2 div{/*estilizando as div da section parte2*/
+   text-align: center;   /*alinha o texto no centro da div*/
+}
+
+.parte2 h3 {/*textos h3 da section parte2*/
+    margin-top: 8px; /* espaçamento ao acima do h3*/
+}
+
+.parte2 button{/*botãos da section parte2*/
+    background-color: #FEAF02;/*cor do botão*/
+    width: 8vw;/*largura do botão*/
+    height: 5vh;/*altura do botao*/
+    margin-top: 12px;/*espaçamento acima da caixa*/
+    border:none;/*retira as bordas*/
+}
+
+.parte3{ /*class do html*/
+    width: 100%;/*largura*/
+    height: 60vh;/*altura*/
+    margin-top: 3%;/*espaçamento acima da class*/
+    padding-left: 6%;/*espaçamento dentro da caixa para esquerda*/
+    padding-top: 5.5%;/*espaçamento acima dentro da caixa*/
+    background-image: url(imagens/banner2.png);/*tranforma a imagem em fundo*/
+    background-repeat: no-repeat;/*a imagem nao se repete*/
+    background-size: 100% 100%;/*tamanho da imagem*/
+}
+
+.parte3 p{/*paragrafo da section parte 3*/
+    width: 29%;
+    
+}
+
+
+.lista li {/*listas da parte3*/
+
+list-style-type: none;/*tira as bolinhas das listas*/
+margin-top:10px;/*espaçamento acima da lista*/
+}
+
+.titulo {/*paraghrafo da parte 3*/
+background-color: #FEAF02;
+color:aliceblue;
+height: 80px;/*altura*/
+padding-top:20px;/*espaçamento no espaço interno da caixa onde se encontra o titulo*/
+}
+
+.titulo h1{ /*h1 da parte3*/
+    font-weight: normal;/*tira o negrito da letra*/
+    text-align: center;/*texto fica alinhado no centro*/
+   
+}
+
+
+.parte4{/*section parte4*/
+    width: 100%;/* tamanho da imagem*/
+    height: 60vh;/*altura da caixa*/
+    background-color: #FEAF02;/*cor da caixa*/
+    display:flex;/* transforma a caixa parte4 um contêiner flexível. Este contêiner permite que seus filhos sejam distribuídos de forma flexível.*/
+    justify-content: center;/* os conteudos (filhos) da caixa pai parte 4 ficam no centro da caixa*/
+    align-items: center;/*itens alinhado no centro da caixa*/
+}
+
+.parte4 h1{/*h1 da section parte 4*/
+    background-color: #FEAF02; /*cor da caixa*/
+    text-align: center;/*alinha o texto no centro da caixa*/
+    height: 10vh;/*altura*/
+    padding-top: 23px;/*espaçamento acima do h1 (dentro da caixa*/
+}
+
+.play1{/*imagem play1 da section parte4*/
+    border: 6px solid aliceblue;
+    width: 25%;
+    height: 75%;
+    display: flex;/* transforma a div em um contêiner flexível. Este contêiner permite que seus filhos sejam distribuídos de forma flexível.*/
+    justify-content: center;/*intems ficam alinhados ao centro do eixo x, horizontal*/
+    align-items: center;/*alinha os intens no centro da caixa*/
+    flex-direction: column;/*os itens ficam em colunas , um de baixo do outro*/
+    background-image: url(imagens/video1.png);/*faz a imagem se tornar o fundo da caixa pai*/
+    background-repeat: no-repeat;/* faz com q a imagem nao se repita*/
+    background-size: 100% 85%; /* permite colocar tamanho da imagem*/
+    background-color: aliceblue; /*cor do fundo da caixa*/
+    }
+
+.play2{/*imagem play 2 da section parte 4*/
+    border: 6px solid aliceblue;
+    margin-left: 3%;/*espaçamento a esquerda da parte de fora da caixa*/
+    width: 25%;/*largura*/
+    height: 75%;/*altura*/
+    display: flex;/* transforma a div em um contêiner flexível. Este contêiner permite que seus filhos sejam distribuídos de forma flexível.*/
+    justify-content: center;/*coloca no centro da caixa*/
+    align-items: center;/* alinha os intens centro da caixa*/
+    flex-direction: column;/*tranforma em coluna*/
+    background-image: url(imagens/video2.png);/*transforma a imagem em fundo da caixa*/
+    background-repeat: no-repeat;
+    background-size: 100% 85%;/*tamanho especifico da imagem de fundo , para nao ficar desfocada*/
+    background-color: aliceblue;
+}
+
+.play1 img{ /*imagem da div play 1  que se encontra na section parte 4*/
+   
+    width: 30%;/*largura da imagem da div play1*/
+    margin-top: 86px;/*altura da imagem da div play1*/
+}
+
+.play2 img{ /*imagem da div play2 que se encontra na section parte 4*/
+   
+    width: 30%;/*tamanho da imagem do botão*/
+    margin-top: 86px;/*espaçamento acima do botão*/
+}
+
+.play1 h3{/*h3 da div play 1 que se encontra dentro da section parte 4*/
+    
+    width: 100%;/*largura */
+    height: 15%;/*altura da h3*/
+    text-align: center;/*alinha o texto no centro da caixa*/
+    margin-top: 70px;/*espaçamento acima da caixa da h3*/
+}
+
+.play2 h3{
+   
+    width: 100%;/*largura da h3*/
+    height: 15%;/*altura da h3*/
+    text-align: center;/*alinha o texto no centro da caixa*/
+    margin-top: 70px;
+}
+
+footer img{/*imagem da footer*/
+    width: 90px;/*define a largura da imagem*/
+    height: 90px;/*define a altura da imagem*/
+}
+
+footer ul{/*lista da footer*/
+    list-style-type: none;/*tira as bolinhas da lista*/
+}
+
+.footer1{/*section footer1*/
+    background-color: #3C4049;
+    width: 100%;/*define a largura da footer1*/
+    height: 40vh;/*define a altura da footer1*/
+    display: flex;/* transforma a section footer1 em um contêiner flexível. Este contêiner permite que seus filhos sejam distribuídos de forma flexível.*/
+    justify-content: space-evenly;/*os itens(filhos que se encontram dentro da caixa footer1) ficam no centro da caixa com espaçamento igual entre os elementos.*/
+    align-items: center;/*alinha os intes no centro da caixa*/
+    color:aliceblue;/*cor da letra da footer1*/
+}
+
+.p1{/*div class que se encontra dentro da section footer1*/
+    
+    width: 10%;/*largura da div p1*/
+    height: 70%;/*altura da div p1*/
+}
+
+
+.p2{/*div class que se encontra dentro da section footer1*/
+    
+    height:/* 70%;/altura da div p2*/
+}
+
+
+.p3{/*div class que se encontra dentro da section footer1*/
+    
+    height: 70%;  /*altura da div p3*/
+}
+
+
+.p4{/*div class que se encontra dentro da section footer1*/
+    
+    height: 70%;/*altura da div p4*/
+}
+
+.footer1 h4{/*h4 da div footer*/
+    font-weight: normal;/*letra fica normal, tira o negrito*/
+    font-size: 15px;/*tamanho da letra*/
+    margin-top: 10px;/*espaçamento acima da caixa do h4*/
+
+}
+
+.footer1 li{/*lista da div footer1*/
+    margin-top: 10px;/*margem acima da caixa da lista*/
+}
+
+.footer2{/*div class footer2*/
+    background-color:#2E2F34 ;
+    height: 10vh; /*altura da duv*/
+    padding-top:30px ;  /*espaçamento dentro da div*/
+    padding-left:7% ;  /*espaçamento para esquerda dentro da div*/
+}
+
+.footer2 h6{/*h6 da div class footer2*/
+    color:#FFFFFF; /*cor do h6 da div class footer2*/
+    font-weight: normal;/*tira o negrito da letra*/
+   }
+
+.footer3{
+    background-color: #222326;
+    height: 5vh;/*altura da caixa footer 3*/
+    display: flex;/* transforma a div footer3 em um contêiner flexível. Este contêiner permite que seus filhos sejam distribuídos de forma flexível.*/
+    justify-content: center;/*os intens (filhos que se encontram dentro da div , se posiciona no centro da div*/
+    align-items: center; /* os intens se alinham no centro da div*/
+}
+
+
+.footer3{
+   color:#a69c9c;/*cor da letra da footer3*/
+  font-weight: normal;/*tira o negrito da letra*/
+
+}
